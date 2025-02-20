@@ -47,7 +47,7 @@ In `FeaturedItem.jsx`, add a button that says "Show Nutrition Facts". When the b
 
 In `FeatureItem.jsx`, add a table of nutrition facts. This table should *only* be displayed while the button reads "Hide Nutrition Facts". When the button reads "Show Nutrition Facts" this table should be hidden.
 
-The table should consist of a single table header of "Calories", "Fat", "Carbohydrates", and "Protein" and a table body of a single row that contains the featured item's macronutrients respectively.
+The table should consist of a table header row of columns "Calories", "Fat", "Carbohydrates", and "Protein" and a table body of a single row that contains the featured item's macronutrients respectively.
 
 Please note that while each featured item is guaranteed to have a `nutrition` object that contains `calories`, it is not always guaranteed to have an amount of `fat`, `carbohydrates`, or `protein`. You should assume that any missing macronutrients are "0g".
 
